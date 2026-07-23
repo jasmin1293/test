@@ -1,0 +1,12 @@
+{
+  "name": "express-path-combiner",
+  "version": "1.0.0",
+  "description": "Simple Express project serving a public folder with a path combiner endpoint",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
