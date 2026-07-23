@@ -7,7 +7,6 @@ const PORT = process.env.PORT || 3000;
 function isBrowserUserAgent(userAgent) {
   return /Mozilla\/5\.0|Chrome|Firefox|Safari|Edge/i.test(userAgent);
 }
-app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/*', (req, res) => {
 const userAgent = req.get('User-Agent') || '';
